@@ -8,6 +8,14 @@ body {
   background-color: #acacac;
 }
 
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: brown;
+  margin: 1rem;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
