@@ -1,3 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
 body {
   background-color: #acacac;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 2rem;
+}
+
+footer ul li {
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
 }
